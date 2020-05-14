@@ -12,12 +12,17 @@ vector<int> vi;
 
 int main()
 {
+	 ios_base::sync_with_stdio(false);
+     cin.tie(NULL);
 
-  int t,c=0,i,j,x,y,osum,nsum=0,m,v;
- int a=10;
- int *b=&a;
- int **c=&b;
- cout<<a<<*b<<**c;
+  int t,c=0,i,j,p,x,y,osum,nsum=0,m,v;
+ 	int n;
+ 	cin>>t;
+ 	while(t--)
+ 	{
+
+    }
+
 return 0;
 }
 

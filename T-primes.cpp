@@ -12,12 +12,26 @@ vector<int> vi;
 
 int main()
 {
+	 ios_base::sync_with_stdio(false);
+     cin.tie(NULL);
 
-  int t,c=0,i,j,x,y,osum,nsum=0,m,v;
- int a=10;
- int *b=&a;
- int **c=&b;
- cout<<a<<*b<<**c;
+  	ll t,c,i,j,p,x,y,osum,nsum=0,m,v;
+ 	ll n;
+ 	cin>>t;
+ 	while(t--)
+ 	{	c=0;
+		cin>>n;
+		for(i=1;i<=n;i++)
+		{
+			if(n%i==0)
+			c++;
+		}
+		if(c==3)
+		cout<<"YES"<<endl;
+		else
+		cout<<"NO"<<endl;
+    }
+
 return 0;
 }
 

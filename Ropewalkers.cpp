@@ -12,12 +12,21 @@ vector<int> vi;
 
 int main()
 {
+	 ios_base::sync_with_stdio(false);
+     cin.tie(NULL);
 
-  int t,c=0,i,j,x,y,osum,nsum=0,m,v;
- int a=10;
- int *b=&a;
- int **c=&b;
- cout<<a<<*b<<**c;
+  int t,i,j,p,x,y,osum,s=0,m,v;
+  int w,b,c,d;
+ 	int n;
+ 	int a[3];
+ 	for(i=0;i<3;i++)
+ 	cin>>a[i];
+ 	cin>>d;
+ 	sort(a,a+3);
+
+     cout << max(0, d - (a[1] - a[0])) + max(0, d - (a[2] - a[1])) << '\n';
+
+
 return 0;
 }
 
